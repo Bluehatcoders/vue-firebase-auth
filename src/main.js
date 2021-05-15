@@ -6,7 +6,7 @@ import store from "./store";
 
 Vue.config.productionTip = false;
 
-const firebaseConfig = {
+const configOptions = {
   apiKey: "AIzaSyB_XI44VWLNUspyqMRjbAZAt9vTAb6LsIY",
   authDomain: "learning-vhxdqt.firebaseapp.com",
   databaseURL: "https://learning-vhxdqt.firebaseio.com",
