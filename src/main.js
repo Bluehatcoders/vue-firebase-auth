@@ -6,14 +6,14 @@ import store from "./store";
 
 Vue.config.productionTip = false;
 
-const configOptions = {
-  apiKey: "",
-  authDomain: "vue-firebase-auth-2802d.firebaseapp.com",
-  databaseURL: "https://vue-firebase-auth-2802d.firebaseio.com",
-  projectId: "vue-firebase-auth-2802d",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+const firebaseConfig = {
+  apiKey: "AIzaSyB_XI44VWLNUspyqMRjbAZAt9vTAb6LsIY",
+  authDomain: "learning-vhxdqt.firebaseapp.com",
+  databaseURL: "https://learning-vhxdqt.firebaseio.com",
+  projectId: "learning-vhxdqt",
+  storageBucket: "learning-vhxdqt.appspot.com",
+  messagingSenderId: "300528074788",
+  appId: "1:300528074788:web:da3b6c990169e2082258b1"
 };
 
 firebase.initializeApp(configOptions);
